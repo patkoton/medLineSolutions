@@ -1,0 +1,91 @@
+.doc{
+    font-size: 20px;
+    font-weight: 500;
+}
+.name{
+    margin-top: 30px;
+    color: white;
+}
+.cn{
+    margin-top: 20px;
+    color: white;
+}
+.pane{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.nav-link::before{
+    content: "";
+    background-color: white;
+    height: 5px;
+    width: 0%;
+    display: block;
+    transition: 300ms;
+}
+.nav-link:hover::before{
+    width: 100%;
+    transition: 300ms;
+}
+
+.med{
+    color: white;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sol{
+    color: white;
+    margin-left: 130px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nc{
+    background-color: #0050B5;
+}
+.blank{
+    width: 100%;
+    height: 30px;
+}
+.bg{
+    background-color: #0050B5; 
+}
+.contactus{
+    background-color:#0050B5;
+    width: 1280px;
+    height: 250px;
+}
+.ci{
+    color: white;
+    margin-top: 20px;
+}
+.link{
+    color: white;
+    margin-top: 20px;
+}
+.limk{
+    color: white;
+    text-decoration: none;
+}
+.fact{
+    color: white;
+    text-decoration: none;   
+}
+.factwit{
+    width: 100%;
+    height: 60px;
+    background-color:#0050B5;
+    color: white;
+    text-align: center;
+}
+.pg{
+    color: white;
+    font-weight: bold;
+}
+.baawu{
+    width: 100%;
+    height: 50px;  
+    background-color:#0050B5;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

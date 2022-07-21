@@ -1,0 +1,147 @@
+.nav-link::before{
+    content: "";
+    background-color: white;
+    height: 5px;
+    width: 0%;
+    display: block;
+    transition: 300ms;
+}
+.nav-link:hover::before{
+    width: 100%;
+    transition: 300ms;
+}
+
+.med{
+    color: white;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sol{
+    color: white;
+    margin-left: 130px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nc{
+    background-color: #0050B5;
+}
+.home{
+    color:white;
+    font-weight: bold;
+}
+.pg{
+    color: white;
+    font-weight: bold;
+}
+.contactus{
+    background-color:#0050B5;
+    width: 1280px;
+    height: 250px;
+}
+.ci{
+    color: white;
+    margin-top: 20px;
+}
+.lag{
+    margin-top: 20px;
+}
+.abtus{
+    width: 100%;
+    height: 300px;
+}
+.imgabt{
+    margin-top: 40px;
+}
+.mission{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.vn{
+    width: 150px;
+    height: 40px;
+    background-color:#0050B5;
+    color: white;
+}
+#map-canvas {
+    height:500px;
+ }
+.book{
+    width: 250px;
+    height: 40px;
+    background-color:#0050B5;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.need{
+    font-size: 40px;
+    color:white;
+    margin-left: 10px;
+}
+.link{
+    color: white;
+    margin-top: 20px;
+}
+.factwit{
+    width: 100%;
+    height: 60px;
+    background-color:#0050B5;
+    color: white;
+    text-align: center;
+}
+.limk{
+    color: white;
+    text-decoration: none;
+}
+.fact{
+    color: white;
+    text-decoration: none;   
+}
+
+/* second page */
+.pract{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.team{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.telec{
+    text-align: center;
+   
+}
+.tele{
+    margin-bottom: 30px;
+}
+.telem{
+    margin-bottom: 30px;
+}
+/* third page */
+.hosp{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hayinls{
+    margin-bottom: 20px;
+}
+.quality{
+    margin-top: 40px;
+}
+.luth{
+    text-decoration: none;
+    color: black;
+}
+/* fourth page */
+.imgspe{
+    text-align: center;
+}
+.mosh{
+    text-align: center;
+    margin-top: 20px;
+}
+.mos{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
